@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/boom": "^8.0.1",
+    "dotenv": "^8.2.0",
     "eslint": "^6.5.1",
     "express": "^4.17.1",
     "prettier": "^1.18.2"
