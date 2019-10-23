@@ -1,0 +1,23 @@
+GET http://{{host}}:{{port}}/api/v1/testing
+
+###
+
+POST http://{{host}}:{{port}}/api/v1/testing
+Content-Type: application/json
+
+{
+  "name": "Testing"
+}
+
+###
+
+DELETE http://{{host}}:{{port}}/api/v1/testing/12345
+
+###
+
+GET http://{{host}}:{{port}}/api/v1/testing/12345
+
+###
+
+PUT http://{{host}}:{{port}}/api/v1/testing/12345
+

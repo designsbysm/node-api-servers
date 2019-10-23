@@ -1,0 +1,46 @@
+{
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "array-bracket-newline": ["warn", { "multiline": true }],
+    "array-bracket-spacing": ["warn", "always"],
+    "array-element-newline": ["warn", "always"],
+    "arrow-parens": ["warn", "as-needed"],
+    "comma-dangle": ["warn", "always-multiline"],
+    "eol-last": ["warn", "always"],
+    "eqeqeq": ["error", "always"],
+    "indent": ["warn", 2, { "ArrayExpression": 1, "SwitchCase": 1 }],
+    "newline-per-chained-call": ["warn", { "ignoreChainWithDepth": 1 }],
+    "no-cond-assign": ["error", "always"],
+    "no-console": [
+      "warn",
+      {
+        "allow": ["error", "info", "warn"]
+      }
+    ],
+    "no-dupe-keys": "error",
+    "no-duplicate-case": "error",
+    "no-empty": "warn",
+    "no-multi-spaces": "warn",
+    "no-multiple-empty-lines": ["warn", { "max": 1, "maxEOF": 0 }],
+    "no-shadow": "error",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "no-var": "warn",
+    "object-curly-spacing": ["warn", "always"],
+    "object-shorthand": ["warn", "always"],
+    "one-var": ["warn", "never"],
+    "prefer-const": "warn",
+    "quote-props": ["warn", "as-needed"],
+    "quotes": ["warn", "double"],
+    "require-await": "error",
+    "semi": ["warn", "always"],
+    "sort-keys": "warn",
+    "spaced-comment": ["warn", "always"]
+  }
+}
