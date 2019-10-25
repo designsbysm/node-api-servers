@@ -14,5 +14,6 @@
   },
   "scripts": {
     "express": "nodemon express",
+    "http": "nodemon http 8080"
   }
 }
