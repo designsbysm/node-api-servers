@@ -7,13 +7,14 @@
     "dotenv": "^8.2.0",
     "eslint": "^6.5.1",
     "express": "^4.17.1",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "yargs": "^14.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
   },
   "scripts": {
     "express": "nodemon express",
-    "http": "nodemon http 8080"
+    "http": "nodemon http --port=8080"
   }
 }
