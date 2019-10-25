@@ -1,15 +1,7 @@
 {
   "name": "api-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "private": true,
   "dependencies": {
     "@hapi/boom": "^8.0.1",
     "dotenv": "^8.2.0",
@@ -19,5 +11,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "express": "nodemon express",
   }
 }

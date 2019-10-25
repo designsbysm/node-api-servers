@@ -11,4 +11,4 @@ app.use(express.json({ limit: "10mb" }));
 app.use(routes);
 app.use(errorHandler);
 
-app.listen(port, () => console.info("server listening on %s", port));
+app.listen(port, () => console.info("express server listening on %s", port));
