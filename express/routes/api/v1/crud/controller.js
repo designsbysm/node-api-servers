@@ -11,9 +11,9 @@ const deleteOne = (req, res) => {
   const { id, kind } = req.params;
 
   res.json({
-    message: "delete one",
-    kind,
     id,
+    kind,
+    message: "delete one",
   });
 };
 
@@ -22,8 +22,8 @@ const readAll = (req, res) => {
 
   res.json([
     {
-      message: "read all",
       kind,
+      message: "read all",
     },
   ]);
 };
@@ -32,19 +32,19 @@ const readOne = (req, res) => {
   const { id, kind } = req.params;
 
   res.json({
-    message: "read one",
-    kind,
     id,
+    kind,
+    message: "read one",
   });
 };
 
-const update = (req, res, next) => {
+const update = (req, res) => {
   const { id, kind } = req.params;
 
   res.json({
-    message: "update one",
-    kind,
     id,
+    kind,
+    message: "update one",
   });
 };
 
