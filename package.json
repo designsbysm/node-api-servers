@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@hapi/boom": "^9.1.0",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-pipeline-operator": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "@hapi/boom": "^8.0.1",
     "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
     "express": "^4.17.1",
@@ -15,7 +19,7 @@
     "nodemon": "^2.0.2"
   },
   "scripts": {
-    "express": "nodemon express",
+    "express": "babel-node express",
     "http": "nodemon http --port=8080"
   }
 }
